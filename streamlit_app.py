@@ -2,6 +2,14 @@ import streamlit as st
 import google.generativeai as genai
 
 # Show title and description
+st.markdown("""
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        </style>
+        """,unsafe_allow_html=True);
 st.title("💬 Edurank ChatBot")
 st.write(
     "Ask and Explore "
