@@ -12,7 +12,7 @@ st.write(
 gemini_api_key = st.text_input("Enter your Name", type="default")
 
 if not gemini_api_key:
-    st.info("Please add your Google AI API key to continue.", icon="🗝️")
+    st.info("Continue to Chat with Us")
 else:
     try:
         # Set API Key
