@@ -4,8 +4,7 @@ import google.generativeai as genai
 # Show title and description
 st.title("💬 Edurank ChatBot")
 st.write(
-    "This is a simple chatbot that uses Google's Gemini AI to generate responses. "
-    "To use this app, you need to provide a Google AI API key, which you can get [here](https://ai.google.dev/). "
+    "Ask and Explore "
 )
 
 # Ask user for their Google API Key
