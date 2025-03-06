@@ -9,14 +9,14 @@ st.write(
 )
 
 # Ask user for their Google API Key
-gemini_api_key = st.text_input("Google AI API Key", type="password")
+gemini_api_key = st.text_input("Enter your Name", type="default")
 
 if not gemini_api_key:
     st.info("Please add your Google AI API key to continue.", icon="🗝️")
 else:
     try:
         # Set API Key
-        genai.configure(api_key=gemini_api_key)
+        genai.configure(api_key="AIzaSyBmDxl1NFY3Ic6FYTxsfS03aO6-oB8CwVQ")
 
         # Initialize chatbot model
         model = genai.GenerativeModel("gemini-1.5-pro-latest")  # Updated Model Name
